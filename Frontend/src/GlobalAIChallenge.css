@@ -1,0 +1,100 @@
+/* ChallengeComponent.css */
+.challenge-container {
+
+  background-color: #003145;
+  width: 1442px;
+height: 625px;
+top: 4px;
+left: -1px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.challenge-content{
+  position: relative; 
+  width: 705px;
+  height: 348px;
+  top: 188px;
+  left: 143px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  
+}
+.inner-challange-line{
+ 
+  background: #FFCE5C;
+   width: 9.71px;
+  height: 115.91px; 
+  top: 39px;
+  left: 143px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 62px;; 
+  
+  
+}
+.inner-challange-content{
+ 
+  width: 643px;
+  height: 346px;
+  top: 190px;
+  left: 205px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: -35px;
+  
+
+}
+.challenge-image img {
+  position: absolute;
+  width: 292px;
+  height: 394px;
+  top: 220px;
+  left: 1000.34px;
+ 
+}
+
+.content-container {
+  max-width: 600px;
+}
+.inner-challange-content p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  
+  color: #ECECEC;
+}
+.inner-challange-content h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: left;
+  color: #ECECEC;
+}
+
+.challenge-button{
+      width: 198px;
+      height: 47px;
+      top: 430px;
+      left: 205px;
+      cursor:pointer;
+      gap: 10px;
+      border-radius: 10px;
+      opacity: 0px;
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 18px;
+      text-align: center;
+      color:#003145;
+      border: none;
+
+}
+
+

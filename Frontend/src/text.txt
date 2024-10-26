@@ -1,0 +1,483 @@
+ .explore-challenges-container {
+              position:absolute;
+              width:1440px;
+              top:1731px;
+              height:324px;
+              text-align: center;
+              background-color: #0b2b44;
+              color: white;
+              
+}
+          .explore-challenges-container h2{
+            font-family: Poppins;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 40px;
+            text-align: center;
+            margin-top:50px;
+
+          }
+
+.search-filter-container {
+  margin-top:-60px;
+  width: 1440px;
+  height: 324px;
+  top:1731px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  
+  
+}
+
+input[type="text"] {
+  width: 964px;
+  height: 50px;
+  top:1907px;
+  
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  
+}
+
+
+// .search-bar input {
+//   width: 100%;
+//   padding: 8px;
+//   margin-bottom: 10px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+// }
+.search-n-filter{
+  display:flex;
+          
+}
+
+// .filter-dropdown select {
+//   width: 100%;
+//   padding: 8px;
+//   margin-bottom: 10px;
+//   background: white;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+// }
+
+
+// .filter-section {
+// margin-left:20px;
+// width: 110px;
+// height: 50px;
+// top: 1907px;
+// left: 1100px;
+// gap: 10px;
+// border-radius: 12px;
+// border: 1px 0px 0px 0px;
+// opacity: 0px;
+
+// }
+
+.filter-design{
+       width: 110px;
+      height: 50px;
+      
+      
+      gap: 10px;
+      border-radius: 12px;
+      border: 1px 0px 0px 0px;
+      opacity: 0px;
+      color:black;
+      background: #FFFFFF;
+      font-family: Inter;
+      display:flex;
+
+}
+
+
+.filter-design img{
+          width: 25px;
+          height: 17px;
+          margin-top:16px;
+          margin-left:px;
+}
+.filters-title{
+          display:flex;;
+          color:black;
+          padding-left:16px;
+          
+}
+.filters-title img{
+          width: 25px;
+          height: 17px;
+          margin-top:24px;
+          margin-left:120px;
+}
+          
+.filters{
+   position: absolute;
+    width: 250px;
+    height: 394px;
+    top: 187px;
+    left: 1154px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: left;
+    background: white;
+    border-width: 0px, 0px, 0px, 0px;
+    border-radius: 6px;
+    border-style: solid
+
+
+}
+.filters h4{
+    width: 45px;
+    height: 14.29px;
+    gap: 0px;
+    opacity: 0px;
+    color:black;
+    padding-left:10px;
+
+}
+.filter-section{
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 29.12px;
+          text-align: left;
+          color:black;
+          padding-left: 10px;
+          
+}
+
+.filter-design img:hover .filters{
+        cursor:pointer;
+        
+}
+
+
+.filter-display{
+          position:absolute;
+}
+.filter-display p{
+          background:red;
+}
+
+.Explore-Challenges-container-inner{
+          margin-top:-56px;
+           padding-top:50px;
+            width:1442px;
+           height:1196px;
+           top:2055px;
+          background: #003145;
+}
+.challenges-grid {
+  
+  width:1172px;
+  height:996px;
+  top:2130;
+  margin-left:134px;
+  display: grid;
+  grid-template-columns: repeat(3, 308px); /* 3 columns with fixed width */
+  gap: 100px; /* space between grid items */
+  justify-content: center;
+}
+
+.challenge-card {
+
+ width: 354px;
+height: 473px;
+  background-color: white;
+  
+  border-radius: 15px ;
+  text-align: center;
+  color: #000;
+}
+
+.challenge-card img {
+  width: 354px;
+  
+  height: 174px;
+  border-radius: 8px 8px 0 0 ;
+}
+.challenge-card h4{
+    color: white;
+    font:inter;
+    size:12px;
+    line-height:16px;
+    width:87px;
+    height:21px;
+    font-weight:100;
+    margin-left:127px;
+    border-radius:4px;
+
+}
+
+
+
+.challenge-card h3 {
+  margin: 10px 0;
+}
+
+.challenge-card p {
+  color: gray;
+}
+
+.paticipate-btn{
+          width: 182.55px;
+height: 42px;
+top: 2534px;
+left: 220px;
+gap: 0px;
+border:0;
+border-radius: 10px ;
+opacity: 0px;
+background: #44924C;
+color: #FFFFFF;
+}
+
+.participate-btn img{
+ width: 18px;
+height: 18px;
+
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.participate-btn span{
+          width: 113px;
+          height: 18px;
+          top: 12px;
+          left: 48px;
+          gap: 0px;
+          opacity: 0px;
+          
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    title: 'Data Science Model 2',
+    status: 'Active',
+    category: 'Data Science',
+    imageUrl: '/cardimage/Group 1000002771.png',
+    start: new Date('2024-09-20T00:00:00'),
+    end: new Date('2024-09-25T00:00:00'),
+    description: 'A challenge to develop and test your data science skills.',
+  },
+  {
+    title: 'Data Science Model 2',
+    status: 'Active',
+    category: 'Data Science',
+    imageUrl: '/cardimage/Group 1000002771.png',
+    start: new Date('2024-09-20T00:00:00'),
+    end: new Date('2024-09-25T00:00:00'),
+    description: 'A challenge to develop and test your data science skills.',
+  },
+  {
+    title: 'Data Science Model 2',
+    status: 'Active',
+    category: 'Data Science',
+    imageUrl: '/cardimage/Group 1000002771.png',
+    start: new Date('2024-09-20T00:00:00'),
+    end: new Date('2024-09-25T00:00:00'),
+    description: 'A challenge to develop and test your data science skills.',
+
+  },
+  {
+    title: 'Data Science Model 2',
+    status: 'Active',
+    category: 'Data Science',
+    imageUrl: '/cardimage/Group 1000002771.png',
+    start: new Date('2024-09-20T00:00:00'),
+    end: new Date('2024-09-25T00:00:00'),
+    description: 'A challenge to develop and test your data science skills.',
+  },
+  {
+    title: 'Data Science Model 2',
+    status: 'Active',
+    category: 'Data Science',
+    imageUrl: '/cardimage/Group 1000002771.png',
+    start: new Date('2024-09-20T00:00:00'),
+    end: new Date('2024-09-25T00:00:00'),
+    description: 'A challenge to develop and test your data science skills.',
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <style>
+        {
+          `
+          .form-container {
+    position: relative;
+}
+
+h2 {
+    width: 1440px;
+    height: 107px;
+    top: 64px;
+    padding: 41px 0px 37px 89px;
+    background: #F8F9FD;
+    opacity: 1; /* Set to 1 for visibility */
+}
+
+.first-Box {
+    width: 453px;
+    height: 305px;
+    margin-left: 89px;
+    border: 1px solid #ccc;
+    opacity: 1; /* Set to 1 for visibility */
+}
+
+.first-Box input {
+    padding: 10px;
+    width: 100%; /* 100% to match container width */
+    height: 39px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.first-Box label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    padding: 10px 0;
+}
+
+.desc {
+    width: 817px;
+    height: 292px;
+    margin-top: 80px;
+    margin-left: 89px;
+    border: 1px solid #ccc;
+    opacity: 1; /* Set to 1 for visibility */
+}
+
+.desc label {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.desc textarea {
+    width: 100%; /* Full width */
+    height: 252px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.uploadimg label {
+    margin-left: 89px;
+}
+
+.upload-text {
+    width: 236px;
+    height: 87px;
+    /* background: url('icons/bxs_cloud-upload.svg') no-repeat left center; */
+    margin-top: 60px;
+    margin-left: 89px;
+    cursor: pointer;
+    padding-left: 50px; /* Adjust padding for text after icon */
+}
+
+.image-input {
+    position: absolute;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.lvl-n-btn {
+    width: 236px;
+    height: 181px;
+    margin-left: 89px;
+    opacity: 1; /* Set to 1 for visibility */
+}
+
+.lvl-type {
+    width: 163px;
+    padding: 10px 0;
+    opacity: 1; /* Set to 1 for visibility */
+}
+
+.lvl-type select {
+    width: 236px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    opacity: 1; /* Set to 1 for visibility */
+}
+
+.lvl-type option {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.btn-create {
+    width: 214px;
+    height: 46px;
+    margin: 50px 0;
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: #44924C;
+    color: #FFFFFF;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-create:hover {
+    background-color: #218838;
+}
+
+          `
+        }
+      </style>
