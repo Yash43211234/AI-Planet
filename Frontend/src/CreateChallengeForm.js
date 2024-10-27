@@ -33,7 +33,7 @@ const CreateChallengeForm = () => {
     formDataToSend.append('image', formData.image); // Include the image file
 
     try {
-      const response = await fetch('http://localhost:3002/submit', {
+      const response = await fetch('https://ai-planet-7m1e.onrender.com/submit', {
         method: 'POST',
         body: formDataToSend,
       });
