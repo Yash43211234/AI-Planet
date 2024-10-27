@@ -12,7 +12,7 @@ const ChallengePage = () => {
   useEffect(() => {
     const fetchChallenge = async () => {
       try {
-        const response = await fetch(`http://localhost:3002/challenge/${index}`);
+        const response = await fetch(`https://ai-planet-7m1e.onrender.com/challenge/${index}`);
         if (!response.ok) {
           throw new Error('Challenge not found');
         }
