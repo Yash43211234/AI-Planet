@@ -12,7 +12,7 @@ const app = express();
 
 // Use CORS middleware
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'https://ai-planet-7m1e.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   optionsSuccessStatus: 200,
