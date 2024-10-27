@@ -42,7 +42,7 @@ const ExploreChallenges = () => {
   useEffect(() => {
     const fetchChallenges = async () => {
       try {
-        const response = await fetch('http://localhost:3002/challenges');
+        const response = await fetch('https://ai-planet-7m1e.onrender.com/challenges');
         const data = await response.json();
         setChallenges(data);
       } catch (error) {
